@@ -23,7 +23,8 @@ PS: Not sure how to get that contact form working? Give formspree.io a try (it's
 Credits:
 
 	Demo Images:
-		Unsplash (unsplash.com)
+		Unsplash (unsplash.com) 
+		banner image (https://unsplash.com/@markusspiske)
 
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
