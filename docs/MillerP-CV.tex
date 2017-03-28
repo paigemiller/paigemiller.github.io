@@ -1,0 +1,183 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Paige B Miller}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {ecology, statistics, epidemiology},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{}{Graduate Research Scholar} \\
+  Odum School of Ecology \\
+  University of Georgia \\
+  Athens, GA 30605
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (651) 767-2412 \\
+    Email: & \href{mailto:paige.miller@uga.edu}{\tt paige.miller@uga.edu} \\
+    Homepage: & \href{https://paigemiller.github.io}{\tt https://paigemiller.github.io} \\
+  \end{tabular}
+\end{minipage}
+
+\section*{Education}
+
+\begin{itemize}
+  \item B.A. Biology and Mathematics, Gustavus Adolphus College (Saint Peter, Minnesota) 2015.
+
+  \item Ph.D. Ecology, University of Georgia, Current.
+\end{itemize}
+
+\section*{Research Experience}
+
+\begin{itemize}
+\item \textbf{Drake Lab Research Scholar}, the University of Georgia, current. Developing early warning signals for disease emergence, interested in mathematical and statistical models for disease forecasting and intervention. 
+\item \textbf{Whalen Lab Research Scholar}, the University of Georgia, current. Studying transmission of TB in Uganda, interested in using network modeling approaches inform disease forecasting and intervention. 
+
+\item \textbf{Public Health Intern}, Division of HIV/AIDS Prevention, Centers for Disease Control and Prevention, \textit{2015}. Investigated how a brief message regarding HIV testing and unknown infections impacts safe sex behavior among men who have sex with men (MSM) in the United States.
+\item \textbf{Drake Lab Undergraduate Research Assistant}, the University of Georgia, \textit{2014}. Developed early warning signals for forecasting disease emergence and eradication thresholds  for measles.
+\item \textbf{Park Lab Undergraduate Research Assistant}, the University of Georgia, \textit{2013}. Developed models for the transmission and drug resistance emergence of heartworm in the Southern United States. 
+\item \textbf{Bloch-Qazi Lab Undergraduate Research Assistant}, Gustavus Adolphus College, \textit{2012-15}. Studied impacts of aging on reproduction in \textit{Drosophila melanogaster}. 
+
+\end{itemize}
+
+\section*{Presentations and Publications}
+
+\subsection*{Journal Articles}
+
+\begin{itemize}
+\item Miller PB, Obrik-Uloho OT, Phan MH, Medrano CL, Renier JS, Thayer JL, Wiessner G, and Bloch Qazi MC. 2014. The Song of the Old Mother: Reproductive Senescence in Female Drosophila. \textit{FLY}.
+\item Mansergh G, PB Miller, JH Herbst, MJ Mimiaga, J Holman. Effects of Brief Messaging about Undiagnosed Infections Detected through HIV Testing among Black and Latino Men who have Sex with Men in the United States. 2015. \textit{Sexually Transmitted Diseases}.
+\item Miller P, O'Dea EB, Rohani P, Drake JM. Forecasting infectious disease emergence subject to seasonal forcing, \textit{in review for BMC Theoretical Biology and Medical Modeling}
+\item Bloch Qazi M, Miller PB, Poeschel P, Phan MH, Thayer JL, Medrano CL. Transgenerational effects of maternal and grandmaternal age on offspring viability and performance in Drosophila melanogaster, \textit{in review for the Journal of Experimental Biology}
+
+\end{itemize}
+
+\subsection*{Presentations}
+\begin{itemize}
+\item Miller, P. and M. Bloch-Qazi. 2012. Female age affects reproductive behavior and physiology in Drosophila melanogaster. Midstates Consortium for Math and Science Undergraduate Research Symposium, Chicago, IL.
+\item Harvard School of Public Health Undergraduate Conference on America’s Next Top Infectious Disease Model: HIV and Influenza. 2013. Chicago, IL.
+\item Miller, P. and A.W. Park. 2013. The Perfect Storm: Factors that lead to increased transmission and drug resistance emergence of heartworm in the United States. Student Research Symposium, Gustavus Adolphus College.
+\item Developmental Biology Symposium. 2013, 2012. Minneapolis, MN.
+\item Miller, P. and A.W. Park. 2013. The Perfect Storm: Factors that lead to increased transmission and drug resistance emergence of heartworm in the United States. NIMBIOS Undergraduate Research Conference at the interface of Math and Biology, Knoxville, TN.
+\item Miller, P. and A.W. Park. 2014. The Perfect Storm: Factors that lead to increased transmission and drug resistance emergence of heartworm in the United States. Celebration of Creative Inquiry, Gustavus Adolphus College.
+\item Miller, P. and A.W. Park. 2014. The Perfect Storm: Factors that lead to increased transmission and drug resistance emergence of heartworm in the United States. Midwest Mathematical Biology Conference, La Crosse, WI.
+\item Miller, P. and J.M. Drake. 2015. Using the power ratio as an early warning statistic for predicting emerging infectious disease outbreaks. National Science Foundation, Emerging Researchers National Conference, Washington D.C.
+\item Miller, P. and G. Mansergh. 2015. Effects of Brief Messaging about Undiagnosed Infections Detected through HIV Testing among Black and Latino Men who have Sex with Men in the United States. Celebration of Creative Inquiry, Gustavus Adolphus College.
+\item Miller P. 2016. Forecasting infectious diseases with early warning signals. MIDAS Symposium, Reston, VA. 
+\item Miller P. 2017. Spatial pattern formation of an infectious disease on the verge of elimination. Odum School of Ecology Graduate Student Research Symposium, Athens, GA. 
+\end{itemize}
+
+
+\section*{Grants \& Awards}
+
+\begin{itemize}
+\item National Science Foundation Graduate Research Fellowship (\$102,000), 2016. 
+\item National Science Foundation, Graduate Research Fellowship (Honorable mention), 2015.
+\item Gustavus Adolphus College Mansergh Award for Undergraduates in Public Health, 2015.
+\item Gustavus Adolphus College Paul Rucker Diversity Scholarship, 2011.
+\item Gustavus Adolphus College Charles Hamrum Award for Biology, 2014.
+\item Gustavus Adolphus College Verna Leona Anderson Scholarship for Women in Leadership, 2014. 
+\item Gustavus Adolphus College Marguerite Pooley Hauber Scholarship for Women in Mathematics, 2012. 
+\end{itemize}
+
+\section*{Service}
+\begin{itemize}
+\item HIV testing volunteer, LiveForward, Athens GA, 2015-current. 
+\item Undergraduate student mentor, Women in Science Program, University of Georgia, 2015-current. 
+\end{itemize}
+
+\section*{Professional Organizations}
+\begin{itemize}
+\item Sigma Xi
+\item American Statistical Association
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
