@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 MAR 2017 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JUN 2017 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -328,27 +328,27 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <12> not available
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 164.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 163.
 
 [2]
 
-Package hyperref Warning: Suppressing link with empty target on input line 179.
+Package hyperref Warning: Suppressing link with empty target on input line 178.
 
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  (./MillerP-CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `MillerP-CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
  5763 strings out of 493089
  84451 string characters out of 6134842
- 172052 words of memory out of 5000000
+ 172077 words of memory out of 5000000
  9187 multiletter control sequences out of 15000+600000
  38038 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -361,7 +361,7 @@ live/2015/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/201
 ist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/palatino/uplri8a.pfb>
-Output written on MillerP-CV.pdf (3 pages, 87301 bytes).
+Output written on MillerP-CV.pdf (3 pages, 87007 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
